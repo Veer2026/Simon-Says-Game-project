@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+}
+.color-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.color{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.red{
+    background-color: rgb(246, 91, 91);
+}
+.green{
+    background-color: rgb(74, 188, 74);
+}
+.yellow{
+    background-color: rgb(213, 213, 48);
+}
+.purple{
+    background-color: rgb(90, 47, 90);
+}
+.flash{
+    background-color: white;
+}
+.flashOver{
+    background-color: red;
+}
